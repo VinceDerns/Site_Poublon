@@ -1,0 +1,393 @@
+:root {
+    --bg-color1: #2176b9;
+    --bg-color2: #2ba8de;
+    --bg-color3: #ffffff;
+    --bg-bio-color: #e9e9e9;
+    --navbar-color: #000;
+    --font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: var(--font-family)
+}
+
+.navbar,
+header,
+main,
+footer {
+    width: 100vw;
+    
+}
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+}
+
+
+/*Mes Livres*/
+
+.title
+{
+    width: 150px;
+}
+
+h2
+{
+    font-size: 3em;
+    text-transform: uppercase;   
+}
+
+h3 
+{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: linear-gradient(var(--bg-color1), var(--bg-color2));
+    color: var(--bg-bio-color);  
+    display: flex;
+    flex-direction: column;    
+}
+
+.book_title{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: white;
+}
+
+.presentation
+{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;    
+}
+
+.presentation::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.presentation p
+{
+    line-height: 1.4;
+}
+
+.histoire
+{
+    margin-top: 30px;
+}
+
+.cover
+{
+width: 400px;
+height: 600px;
+object-fit: cover;
+float: left;
+shape-outside: margin-box;
+margin: 0 20px 5px 0;
+}
+
+.illustration
+{
+    display: grid;
+   
+}
+
+.other_book_cover {
+    width: 200px;
+    height: 300px;
+}
+
+.other_book_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    height: 500px;
+}
+
+.other_book_box {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: var(--bg-color1);
+    height: 310px;
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 15px black;
+}
+
+.other_book_box:hover {
+    background-color: #2ba8de;
+}
+
+.commander
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn_buy
+{
+    padding: 10px;
+    margin-top: 10px;
+    color: var(--navbar-color);
+}
+
+/*Fin mes livre*/
+
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+/*                                         Mediaqueries                                                       */
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+
+@media screen and (max-width:749px) {
+
+
+    body {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    nav .navbar_toggler .bar {
+        width: 40px;
+        height: 5px;
+        margin-bottom: 10px;
+        background: white;
+        border-radius: 10%;
+        transition: .5s;
+    }
+
+    input {
+        display: none;
+    }
+
+    input:checked~nav .nav_list {
+        transform: translateY(0);
+    }
+
+    input:checked~nav .navbar_toggler {
+        margin-top: 35px;
+    }
+
+    input:checked~nav .navbar_toggler .bar:nth-child(1) {
+        position: absolute;
+        transform: rotate(45deg);
+    }
+
+    input:checked~nav .navbar_toggler .bar:nth-child(2) {
+        display: none;
+    }
+
+    input:checked~nav .navbar_toggler .bar:nth-child(3) {
+        transform: rotate(-45deg);
+    }
+
+    .title img {
+        max-width: 100%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .thecard img {
+        max-width: 100%;
+    }
+
+
+    nav {
+        padding: 0 2rem;
+
+    }
+
+    nav .nav_list .nav_item {
+        padding: 0 20px;
+    }
+
+    .navbar_toggler {
+        z-index: 9999;
+    }
+
+    nav .nav_list {
+        display: grid;
+        position: absolute;
+        background: var(--navbar-color);
+        width: 100%;
+        top: 10px;
+        left: 0;
+        transform: translateY(-100%);
+        z-index: 1000;
+        transition: .6s;
+    }
+
+
+    nav .nav_list .nav_item {
+        padding-left: 35px;
+    }
+
+    nav .navbar_toggler {
+        display: grid !important;
+    }  
+
+      .illustration
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+   .other_book_container {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+   }      
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 750px) {
+    nav .navbar_toggler .bar {
+        width: 40px;
+        height: 5px;
+        margin-bottom: 10px;
+        background: white;
+        border-radius: 10%;
+        transition: .5s;
+    }
+
+    input {
+        display: none;
+    }
+
+    input:checked~nav .nav_list {
+        transform: translateY(0);
+    }
+
+    input:checked~nav .navbar_toggler {
+        margin-top: 35px;
+    }
+
+    input:checked~nav .navbar_toggler .bar:nth-child(1) {
+        position: absolute;
+        transform: rotate(45deg);
+    }
+
+    input:checked~nav .navbar_toggler .bar:nth-child(2) {
+        display: none;
+    }
+
+    input:checked~nav .navbar_toggler .bar:nth-child(3) {
+        transform: rotate(-45deg);
+    }
+
+
+    .book_title {       
+      text-align: center;
+    }
+
+    nav {
+        padding: 0 1rem;
+    }
+
+    nav .nav_list .nav_item {
+        padding: 0 15px;
+    }
+
+    .navbar_toggler {
+        z-index: 9999;
+    }
+
+    nav .nav_list {
+        display: grid;
+        position: absolute;
+        background: var(--navbar-color);
+        left: 0;
+        top: 0;
+        width: 100%;
+        transform: translateY(-100%);
+        z-index: 1000;
+        transition: .6s;
+    }
+
+
+    nav .nav_list .nav_item {
+        padding-left: 35px;
+    }
+
+    nav .navbar_toggler {
+        display: grid !important;
+    }
+
+    h3 {
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+           .other_book_container {
+               display: flex;
+               flex-direction: row;
+               flex-wrap: wrap;
+           }
+       
+
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width:1200px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }   
+
+          .other_book_container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+          }
+ 
+
+       
+} 
+
+

@@ -1,0 +1,39 @@
+.container-form {
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 100px;
+}
+
+.container-form input {
+    display: block;
+}
+
+.fields {
+    width: 100%;
+    background-color: #F8F8F8;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid var(--color-magenta);
+    padding: 10px var(--form-padding);
+}
+
+.btn {
+    color: #fff;
+    margin-top: 30px;
+    padding: 15px 25px;
+    background-color: var(--color-magenta);
+    border: 3px solid var(--color-magenta);
+}
+
+
+.btn:hover {
+    background-color: #0093E9;
+    background-image: var(--color-magenta);
+    cursor: pointer;
+}
+
+
+input:focus {
+    background-color: rgb(253, 215, 233);
+    border: 1px solid var(--color-magenta);
+}
