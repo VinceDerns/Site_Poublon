@@ -12,7 +12,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
+    border: 0;    
     list-style-type: none;
     text-decoration: none;
     font-family: var(--font-family)
@@ -23,9 +23,7 @@ body {
     display: flex;
     background-color: var(--bg-color2);
     flex-direction: column;
-
 }
-
 
 .label::after {
     color: crimson;
@@ -40,9 +38,6 @@ body {
     border: 2px solid var(--color-magenta);
     padding: 10px var(--form-padding);
 }
-
-front
-
 
 /*Nav Barre*/
 
@@ -83,8 +78,6 @@ nav .nav_list .nav_item {
     transition: .4s;
 }
 
-
-
 .nav_link {
     color: white;
 }
@@ -101,6 +94,10 @@ nav .navbar_toggler {
     cursor: pointer;
 }
 
+.navbar_toggler
+{
+    margin-right: 15px;
+}
 
 
 /*Fin Nav barre*/
@@ -297,7 +294,7 @@ h3 {
 .book_container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
     height: 500px;
 }
 
@@ -310,6 +307,7 @@ h3 {
     height: 310px;
     width: 210px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 5px 5px 15px black;
@@ -317,6 +315,39 @@ h3 {
 
 .book_box:hover {
     background-color: #34a9db;
+}
+
+.items_btn
+{
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.box 
+{
+    display: flex;
+    flex-direction: column;   
+}
+
+.livres_btn_buy
+{
+    margin-bottom: 5px;    
+    padding: 6px;
+    margin-right: 5px;
+    background-color: #f88ea9;
+    border: 1px solid var(--navbar-color);
+    color: #ffffff;        
+}
+
+.fa-solid
+{
+    color: #ffffff;
+}
+
+.livres_btn_buy:hover
+{
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);    
 }
 
 /* Fin page livre*/

@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mes livres</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/livres.css">
     <script src="https://kit.fontawesome.com/ea6733594a.js" crossorigin="anonymous"></script>
     <script src="../JS/script.js"></script>
 </head>
@@ -27,10 +26,7 @@
                 <div class="book_box">
                     <a href="../html/livres/hibiscus_bleu.html"><img class="book_cover"
                             src="../images/L'hibiscus bleu.jpg" alt=""></a>
-                    <div class="livres_commander">
-                        <button class="livres_btn_buy"><a href="">Commander avec nos partenaires</a></button>
-                        <button class="livres_btn_buy"><a href="">Ajouter au panier</a></button>
-                    </div>
+
                 </div>
                 <div class="book_box">
                     <a href="../html/livres/les_ailes_du_paradis.html"><img class="book_cover"

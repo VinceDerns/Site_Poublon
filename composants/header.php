@@ -43,7 +43,7 @@
                     </li>
 
                     <li class="nav_item">
-                        <a class="nav_link" href="../front/evenments.php">Événements</a>
+                        <a class="nav_link" href="../front/evenements.php">Événements</a>
                     </li>
 
 
