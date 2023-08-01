@@ -1,15 +1,15 @@
-<?php include '../composants/header.php' ?>
+<?php include('../../composants/header.php') ?>
 
 <!DOCTYPE html>
 <html lang="fr">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Les ailes du paradis</title>
-    <link rel="stylesheet" href="../assets/css/livres.css">
-    <script src="https://kit.fontawesome.com/ea6733594a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../assets/css/livres.css">
+    <script src="https://kit.fontawesome.com/ea6733594a.js" crossorigin="anonymous"></script>
 </head>
 
 
@@ -20,7 +20,7 @@
     </div>
 
     <div class="presentation">
-        <img class="cover" src="../../images/Les ailes du paradis.jpg" alt="couverture du livre 'les ailes du paradis'">
+        <img class="cover" src="../../assets/img/Les_ailes_du_paradis.jpg" alt="couverture du livre 'les ailes du paradis'">
         <p> <span>Résumé :</span> Giuseppe a vécu plus de quarante ans dans le quartier du Marais, 4ème
             arrondissement de Paris, et il a vu ce
             quartier populaire se transformer petit à petit en quartier de "petits bourgeois" ou plus populairement
@@ -175,7 +175,7 @@
         <span>Marie-Simone Poublon</span>
     </p>
 
-    <img src="../../images/livres/ailes_paradis/portrait-giuseppe-1920w.png" alt="">
+    <img src="../../assets/img/livres/ailes_paradis/portrait-giuseppe-1920w.png" alt="">
 
     <div class="bloc_extrait">
         <h5>Extrait chapitre 3 : Giuseppe persona non grata</h5>
@@ -298,7 +298,7 @@
             conditions. Pas lui. Il nous donne en échange de sa vie, une leçon de sagesse. Heureux soient ceux qui
             l’entendent…</p>
     </div>
-    <img src="../../images/livres/ailes_paradis/Giuseppe-1920w.jpg" alt="">
+    <img src="../../assets/img/livres/ailes_paradis/Giuseppe-1920w.jpg" alt="">
 </div>
 
 <div class="commander">
@@ -308,7 +308,7 @@
 
 
 
-<?php include '../composants/footer.php' ?>
+<?php include('../../composants/footer.php') ?>
 
 </body>
 

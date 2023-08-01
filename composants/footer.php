@@ -18,7 +18,6 @@
     <footer>
         <div class="footer_content">
             <h3>Marie-Simone POUBLON</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
             <ul class="socials">
                 <li><a href="https://www.facebook.com/mariesimone.poublon"><i class="fa-brands fa-facebook"></i></a>

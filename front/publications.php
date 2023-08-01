@@ -17,7 +17,7 @@
 
 
     <header class="book_header">
-        <h2 class="book_title">Mes livres</h2>
+        <h2 class="book_title">Mes Romans</h2>
     </header>
 
     <main>
@@ -25,8 +25,7 @@
             <div class="book_container">
                 <div class="box">
                     <div class="book_box">
-                        <a href="../front/hibiscus_bleu.php"><img class="book_cover"
-                                src="../assets/img/L'hibiscus bleu.jpg" alt=""></a>
+                        <a href="../front/livres/hibiscus_bleu.php"><img class="book_cover" src="../assets/img/l_hibiscus_bleu.jpg" alt=""></a>
                     </div>
                     <div class="items_btn">
                         <a class="livres_btn_buy" href="">Commander avec <br> nos partenaires</a>
@@ -36,8 +35,7 @@
 
                 <div class="box">
                     <div class="book_box">
-                        <a href="../front/les_ailes_du_paradis.php"><img class="book_cover"
-                                src="../assets/img/Les ailes du paradis.jpg" alt=""></a>
+                        <a href="../front/livres/les_ailes_du_paradis.php"><img class="book_cover" src="../assets/img/Les_ailes_du_paradis.jpg" alt=""></a>
                     </div>
                     <div class="items_btn">
                         <a class="livres_btn_buy" href="">Commander avec <br> nos partenaires</a>
@@ -47,8 +45,7 @@
 
                 <div class="box">
                     <div class="book_box">
-                        <a href="../front/les_oiseaux_de_la_colere.php"><img class="book_cover"
-                                src="../assets/img/Les oiseaux de la colère.jpg" alt=""></a>
+                        <a href="../front/livres/les_oiseaux_de_la_colere.php"><img class="book_cover" src="../assets/img/Les_oiseaux_de_la_colere.jpg" alt=""></a>
                     </div>
                     <div class="items_btn">
                         <a class="livres_btn_buy" href="">Commander avec <br> nos partenaires</a>
@@ -58,8 +55,7 @@
 
                 <div class="box">
                     <div class="book_box">
-                        <a href="../front/un_tout_petit_peche.php"><img class="book_cover"
-                                src="../assets/img/Un tout petit péché.jpg" alt=""></a>
+                        <a href="../front/livres/un_tout_petit_peche.php"><img class="book_cover" src="../assets/img/Un_tout_petit_peche.jpg" alt=""></a>
                     </div>
                     <div class="items_btn">
                         <a class="livres_btn_buy" href="">Commander avec <br> nos partenaires</a>
@@ -69,8 +65,7 @@
 
                 <div class="box">
                     <div class="book_box">
-                        <a href="../front/Revin_ardennes_France.php"><img class="book_cover"
-                                src="../assets/img/Reven_Ardennes_France.webp" alt=""></a>
+                        <a href="../front/livres/Revin_ardennes_France.php"><img class="book_cover" src="../assets/img/Reven_Ardennes_France.jpg" alt=""></a>
                     </div>
                     <div class="items_btn">
                         <a class="livres_btn_buy" href="">Commander avec <br> nos partenaires</a>
@@ -78,6 +73,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- <h2 class="book_title">Mes publication Methodologique</h2> -->
 
         </section>
     </main>

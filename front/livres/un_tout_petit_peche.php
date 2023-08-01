@@ -1,4 +1,4 @@
-<?php include '../composants/header.php' ?>
+<?php include '../../composants/header.php' ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,35 +12,6 @@
 </head>
 
 <body>
-    <div class="navbar">
-        <input type="checkbox" id="toggle">
-        <nav>
-            <a href="../../html/biographie.html"><img class="title" src="../../images/MSP Titre.jpg"
-                    alt="Marie-Simone POUBLON"></a>
-            <label class="navbar_toggler" for="toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </label>
-            <ul class="nav_list">
-                <li class="nav_item">
-                    <a id="active" class="nav_link" href="../../html/index.html">Accueil</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="../../html/biographie.html">Biographie</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="../../html/livres.html">Livres</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="../../html/commander.html">Commander</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="../../html/contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
 
     <div class="container">
 
@@ -50,8 +21,7 @@
         </div>
 
         <div class="presentation">
-            <img class="cover" src="../../assets/images/Un tout petit péché.jpg"
-                alt="Couverture du livre un tout petit péché">
+            <img class="cover" src="../../assets/img/Un_tout_petit_peche.jpg" alt="Couverture du livre un tout petit péché">
             <p>Résumé :
                 Ce Roman est basé sur une histoire vraie, celle de Giuseppe Belvedere, dit Nino, humaniste, poète et
                 homme libre, Giuseppe, Italien, arrivait à Paris en 1970. Il vécut ses douze dernières années à la rue,
@@ -102,8 +72,7 @@
                 soit-il à plumes, à
                 poils ou fait de sang et de chair.</p>
 
-            <img class="dessin" src="../../assets/images/livres/petit_peche/Giuseppe_dessin-1920w.jpg"
-                alt="dessin de Giuseppe tenant un oiseau" width="600px">
+            <img class="dessin" src="../../assets/images/livres/petit_peche/Giuseppe_dessin-1920w.jpg" alt="dessin de Giuseppe tenant un oiseau" width="600px">
             <p>Oeuvre de Mario Filograna "Giuseppe et le moineau de Paris"</p>
         </div>
 
@@ -205,15 +174,11 @@
 
             <div class="bloc_temoignage">
                 <h3>Antonio Prata</h3>
-                <img class="Prata" src="../../assets/images/livres/petit_peche/Antonio_prata.jpg" alt="Antonio Prata"
-                    width="500px">
+                <img class="Prata" src="../../assets/images/livres/petit_peche/Antonio_prata.jpg" alt="Antonio Prata" width="500px">
                 <p>Le cinéaste italo-suisse Antonio Prata, primé pour son film d'auteur de 56mn "Monsieur Pigeon", sorti
                     en 2021 en salle.</p>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Q94hHah6dms"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Q94hHah6dms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
 
@@ -227,25 +192,21 @@
     <section class="other_book">
         <div class="other_book_container">
             <div class="other_book_box">
-                <a href="../front/les_ailes_du_paradis.php"><img class="other_book_cover"
-                        src="../assets/img/Les ailes du paradis.jpg" alt=""></a>
+                <a href="../front/les_ailes_du_paradis.php"><img class="other_book_cover" src="../assets/img/Les ailes du paradis.jpg" alt=""></a>
             </div>
             <div class="other_book_box">
-                <a href="../front/les_oiseaux_de_la_colere.php"><img class="other_book_cover"
-                        src="../assets/img/Les oiseaux de la colère.jpg" alt=""></a>
+                <a href="../front/les_oiseaux_de_la_colere.php"><img class="other_book_cover" src="../assets/img/Les oiseaux de la colère.jpg" alt=""></a>
             </div>
             <div class="other_book_box">
-                <a href="../front/un_tout_petit_peche.php"><img class="other_book_cover"
-                        src="../assets/img/Un tout petit péché.jpg" alt=""></a>
+                <a href="../front/un_tout_petit_peche.php"><img class="other_book_cover" src="../assets/img/Un tout petit péché.jpg" alt=""></a>
             </div>
             <div class="other_book_box">
-                <a href="../front/Revin_ardennes_France.php"><img class="other_book_cover"
-                        src="../assets/img/Reven_Ardennes_France.jpg" alt=""></a>
+                <a href="../front/Revin_ardennes_France.php"><img class="other_book_cover" src="../assets/img/Reven_Ardennes_France.jpg" alt=""></a>
             </div>
         </div>
     </section>
 
-    <?php include '../composants/footer.php' ?>
+    <?php include '../../composants/footer.php' ?>
 </body>
 
 </html>

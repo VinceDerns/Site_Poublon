@@ -1,4 +1,4 @@
-<?php include '../composants/header.php' ?>
+<?php include('../../composants/header.php') ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +22,7 @@
 
 
         <div class="presentation">
-            <img class="cover" src="../../images/Reven_Ardennes_France.webp" alt="Couverture du livre Revin, Ardenne France" width="450px">
+            <img class="cover" src="../../assets/img/Reven_Ardennes_France.jpg" alt="Couverture du livre Revin, Ardenne France" width="450px">
             <p>Résumé :
                 Ce livre en couleur de Marie Simone Poublon est une balade, un carnet du voyageur, qui s’est enrichi au
                 fil des
@@ -82,7 +82,7 @@
         </div>
 
         <div class="bloc_extrait">
-            <img src="../../images/livres/Revin/Daniel+Durbecq-1920w.webp" alt="Photo de Daniel Durbecq Maire de Revin" width="230px">
+            <img src="../../assets/img/livres/Revin/Daniel+Durbecq-1920w.webp" alt="Photo de Daniel Durbecq Maire de Revin" width="230px">
             <h3>Préface de Daniel DURBECQ, Maire de Revin.</h3>
             <p>Chères amies, chers amis,
                 Le “carnet d’une découverte”, écrit par une femme tombée amoureuse de notre contrée, nous invite à
@@ -128,20 +128,20 @@
     <section class="other_book">
         <div class="other_book_container">
             <div class="other_book_box">
-                <a href="../front/les_ailes_du_paradis.php"><img class="other_book_cover" src="../assets/img/Les ailes du paradis.jpg" alt=""></a>
+                <a href="../front/les_ailes_du_paradis.php"><img class="other_book_cover" src="../../assets/img/Les_ailes_du_paradis.jpg" alt=""></a>
             </div>
             <div class="other_book_box">
-                <a href="../front/les_oiseaux_de_la_colere.php"><img class="other_book_cover" src="../assets/img/Les oiseaux de la colère.jpg" alt=""></a>
+                <a href="../front/les_oiseaux_de_la_colere.php"><img class="other_book_cover" src="../../assets/img/Les_oiseaux_de_la_colere.jpg" alt=""></a>
             </div>
             <div class="other_book_box">
-                <a href="../front/un_tout_petit_peche.php"><img class="other_book_cover" src="../assets/img/Un tout petit péché.jpg" alt=""></a>
+                <a href="../front/un_tout_petit_peche.php"><img class="other_book_cover" src="../../assets/img/Un_tout_petit_peche.jpg" alt=""></a>
             </div>
             <div class="other_book_box">
-                <a href="../front/Revin_ardennes_France.php"><img class="other_book_cover" src="../assets/img/Reven_Ardennes_France.jpg" alt=""></a>
+                <a href="../front/Revin_ardennes_France.php"><img class="other_book_cover" src="../../assets/img/Reven_Ardennes_France.jpg" alt=""></a>
             </div>
         </div>
     </section>
-    <?php include '../composants/footer.php' ?>
+    <?php include('../../composants/footer.php') ?>
 
 </body>
 

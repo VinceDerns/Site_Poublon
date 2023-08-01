@@ -2,9 +2,17 @@
     --bg-color1: #2176b9;
     --bg-color2: #2ba8de;
     --bg-color3: #ffffff;
+    --color-magenta: rgb(242, 62, 116);
     --bg-bio-color: #e9e9e9;
     --navbar-color: #000;
-    --font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --form-padding: 30px;
+    --font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    --btn-cart-color1: #f3839f;
+    --bord-cart-color1: #c81e48;
+    --btn-cart-color2: #7cf9bc;
+    --bord-cart-color2: #32a76e;
+    --btn-cart-color3: #edf089;
+    --bordcart-color3: #e1e71c;
 }
 
 * {
@@ -16,24 +24,105 @@
     font-family: var(--font-family)
 }
 
-.navbar,
-header,
-main,
-footer {
-    width: 100vw;
-    
-}
-
-html,
 body {
+    min-height: 100vh;
     display: flex;
+    background-color: var(--bg-color2);
     flex-direction: column;
-    width: 100vw;
-
 }
+
+.mt1 {
+    margin-top: 10px !important;
+}
+
+.mb1 {
+    margin-bottom: 10px !important;
+}
+
+.mt3 {
+    margin-top: 30px !important;
+}
+
+.mb3 {
+    margin-bottom: 30px !important;
+}
+
+.citation {
+    font-size: large;
+    font-style: italic;
+}
+
+.auteur {
+    font-size: x-small;
+    color: #713f49;
+}
+
+.label::after {
+    color: crimson;
+    content: " * ";
+}
+
+/*Nav Barre*/
+
+.title {
+    z-index: 1000;
+    max-height: 10vh;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    height: 75px;
+    line-height: 75px;
+    background-color: var(--navbar-color);
+}
+
+
+
+nav .navbar_brand {
+    color: rgb(43, 211, 80);
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: 0.5em;
+}
+
+nav .nav_list {
+    display: flex;
+}
+
+nav .nav_list .nav_item {
+    cursor: pointer;
+    height: 100%;
+    padding: 0 15px;
+    transition: .4s;
+}
+
+.nav_link {
+    color: white;
+}
+
+.nav_item:hover .nav_link {
+    color: rgb(242, 142, 175);
+}
+
+nav .navbar_toggler {
+    display: none;
+    height: min-content;
+    margin: 18px -10px 0 0;
+    cursor: pointer;
+}
+
+/*Fin Nav barre*/
 
 
 /*Mes Livres*/
+
+body
+{
+    background-color: var(--bg-bio-color);
+}
 
 .title
 {
@@ -159,10 +248,13 @@ margin: 0 20px 5px 0;
 
 .btn_buy
 {
-    padding: 10px;
-    margin-top: 10px;
-    color: var(--navbar-color);
-    text-transform: uppercase;
+    
+    margin-bottom: 5px;
+    padding: 6px;
+    margin-right: 5px;
+    background-color: #f88ea9;
+    border: 2px solid var(--bord-cart-color1);
+    color: #ffffff;
 }
 
 /*Fin mes livre*/

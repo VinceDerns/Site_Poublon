@@ -1,4 +1,4 @@
-<?php include '../composants/header.php' ?>
+<?php include '../../composants/header.php' ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Les oiseaux de la colère</title>
     <script src="https://kit.fontawesome.com/ea6733594a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../assets/css/livres.css">
+    <link rel="stylesheet" href="../../assets/css/livres.css">
 </head>
 
 <body>
@@ -23,7 +23,7 @@
 
 
         <div class="presentation">
-            <img class="cover" src="../assets/img/Les oiseaux de la colère.jpg" alt="Couverture du livre les oiseaux de la colère">
+            <img class="cover" src="../../assets/img/Les_oiseaux_de_la_colere.jpg" alt="Couverture du livre les oiseaux de la colère">
             <p>Résumé :
                 <br>
                 Ce livre émouvant rapporte l’histoire d’un homme, Giuseppe, qui vit à Paris. Pour avoir voulu nourrir
@@ -295,21 +295,21 @@
     <section class="other_book">
         <div class="other_book_container">
             <div class="other_book_box">
-                <a href="../front/les_ailes_du_paradis.php"><img class="other_book_cover" src="../assets/img/Les ailes du paradis.jpg" alt=""></a>
+                <a href="../livres/les_ailes_du_paradis.php"><img class="other_book_cover" src="../../assets/img/Les_ailes_du_paradis.jpg" alt=""></a>
             </div>
             <div class="other_book_box">
-                <a href="../front/hibiscus_bleu.php"><img class="other_book_cover" src="../assets/img/L'hibiscus bleu.jpg" alt=""></a>
+                <a href="../livres/hibiscus_bleu.php"><img class="other_book_cover" src="../../assets/img/L_hibiscus_bleu.jpg" alt=""></a>
             </div>
             <div class="other_book_box">
-                <a href="../front/un_tout_petit_peche.php"><img class="other_book_cover" src="../assets/img/Un tout petit péché.jpg" alt=""></a>
+                <a href="../livres/un_tout_petit_peche.php"><img class="other_book_cover" src="../../assets/img/Un_tout_petit_peche.jpg" alt=""></a>
             </div>
             <div class="other_book_box">
-                <a href="../front/Revin_ardennes_France.php"><img class="other_book_cover" src="../assets/img/Reven_Ardennes_France.jpg" alt=""></a>
+                <a href="../livres/Revin_ardennes_France.php"><img class="other_book_cover" src="../../assets/img/Reven_Ardennes_France.jpg" alt=""></a>
             </div>
         </div>
     </section>
 
-    <?php include '../composants/footer.php' ?>
+    <?php include '../../composants/footer.php' ?>
 
 </body>
 

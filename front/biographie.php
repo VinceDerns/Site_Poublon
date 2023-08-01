@@ -21,78 +21,71 @@
         </header>
 
         <article class="bio_container">
-            <img class="bio_img" src="../assets/img/MSPoublon.jpg" alt="Marie-Simone Poublon">
-            <p> <b>J</b>e rédige des chroniques et des articles pour la presse web alternative (1) sur des thèmes
-                sociétaux,
-                environnementaux
-                ou de protection animale.
-                Auteure de plusieurs livres-enquêtes issus de faits réels, je publie aussi des romans et contes modernes
-                comme
-                "L’hibiscus bleu", sorti en décembre 2022. Chaque chapitre livre un message engagé pour la nature et les
-                animaux.
-                L’histoire nous conduit jusqu’en Nouvelle-Calédonie, à l’autre bout de la planète où il existe encore
-                quelques
-                secrets
-                de vie.</p>
+            <img class="bio_img" src="../assets/img/Visuel_2-Transparent-ConvertImage.jpg" alt="Marie-Simone Poublon">
+            <h3>AUTEURE – CHRONIQUEUSE /EDITORIALISTE</h3>
+
+            <p>Née à Lille (France) en 1965. <br>
+                Diplômée de l’Université des Sciences et Technologies de Lille : Institut d’Administration
+                des Entreprises (CAAE gestion-management, DEA stratégie et Management des
+                Organisations.) <br>
+                Expertise : management des organisations et responsabilité sociétale des entreprises,
+                développement durable des territoires. Auteure de livres et de publications techniques et
+                méthodologiques chez Afnor éditions : <br>
+                « 36000 communes face au développement durable » (2008),
+                <br>
+                « L’agenda 21 : outil de la cohésion des territoires » (2010),
+                <br>
+                « L’agenda 21 scolaire : méthodes et outils pédagogiques » (2011).
+                <br>
+                - Directrice de publication de son propre journal web.
+                <br>
+                - Rédactrice d’articles, de chroniques pour des journaux de la presse alternative.
+                <br>
+                - Participation à des salons du livre autour de rencontres-dédicaces.
+                <br>
+                - reçoit le titre de Chevalier en Suisse en 2010.
+                <br>
+                -Site professionnel : www.mariesimone.fr
+                <br>
+                -Email : mspoublon@yahoo.fr
+            </p>
 
             <br>
 
-            <p> <em> "Ecrire c'est donner du rêve à ses lecteurs. C'est aussi pour moi le moyen de délivrer des messages
-                    forts pour partager et faire partager des valeurs essentielles. L'écriture me permet de laisser des
-                    traces, des morceaux de
-                    l'’histoire d'une vie, des tableaux colorés. Et comme disait Jean Guéhenno de l'académie française
-                    "Un livre est un
-                    outil de liberté". Soyons des écrivains libres !"</em></p>
+            <h3>GENRE DES LIVRES PUBLIÉS : livres d’actualité, romans, contes modernes.</h3>
+
+            <p>Auteure de livres aux sujets d’actualité, aux pensées philosophiques, politiques, sociétales ou
+                sociologiques, de romans, de contes modernes, tels que :
+                <br>
+                - « Les oiseaux de la colère » (2016),
+                <br>
+                - « Les ailes du paradis » (2017),
+                <br>
+                - « Revin, Ardennes France, le carnet d’une découverte » (2017),
+                <br>
+                - « Le défi » (2019),
+                <br>
+                - « L’hibiscus bleu » (2022),
+                <br>
+                - « Un tout petit péché – tome 1 la fontaine de la vie » (2023).
+            </p>
 
             <br>
 
-            <p>Comme le livre d'histoire rend immortels les grands personnages, les vraies histoires rendent immortels
-                les
-                beaux
-                personnages. C'est ainsi que je me suis intéressée à Giuseppe Belvedere, dans mes livres "Les oiseaux de
-                la
-                colère" et
-                "Les ailes du paradis" et maintenant avec "Un tout petit péché". Le sujet était sensible, mêlant drame
-                humain,
-                défense
-                animale et abus de pouvoir des politiques. Giuseppe, un humaniste mis à la rue, fut martyrisé douze
-                années
-                dans
-                le
-                quartier du Marais à Beaubourg (Paris). Il est décédé début janvier 2022 à l’âge de 76 ans. "Un tout
-                petit
-                péché
-                - tome
-                1 la fontaine de la vie" publié en avril 2023 rend hommage à ce héros aux belles pensées, victime de la
-                bêtise
-                humaine.
-                "Un tout petit péché - tome 2 mon testament" sortira en février 2024.</p>
 
-            <br>
+            <h3>MON CREDO</h3>
 
-            <p>Et comme Sylvain Tesson, écrivain et voyageur bien connu, j'ai parcouru l’Ardenne et me suis arrêtée à
-                Revin.
-                L’humain
-                prit toute sa place. Pour écrire ce livre, mon idée fut de rassembler des habitants aux talents divers
-                pour
-                vivre avec
-                eux des aventures aux quatre coins de la forêt, des sentiers, du fleuve ardennais. "Revin, Ardennes
-                France,
-                le
-                carnet
-                d’une découverte" est une ode à la nature et à cette contrée sauvage remplie de poésie.</p>
+            <p>« Un livre est un outil de liberté » Jean Guéhenno
+                <br>
+                « Ecrire, c'est donner du rêve et de l’espoir à ses lecteurs. C'est aussi pour moi le moyen
+                de délivrer des messages forts pour partager et faire partager des valeurs essentielles.
+                L'écriture me permet de laisser des traces, des morceaux de l'’histoire d'une vie, des
+                tableaux colorés. Mes livres aux sujets d’actualité, romans ou contes modernes sont le
+                fruit de mes recherches et observations des comportements humains et animaliers. Ils
+                portent mes convictions profondes : l’humanisme, la protection de la nature, la défense
+                des animaux. »
+            </p>
 
-            <br>
-
-            <p><em>(1) Médias qui n'appartiennent pas aux organes de presse mainstream (de masse).</em></p>
-
-            <br>
-
-            <p>Mon prochain livre « Le secret de la villa des joncs » paraîtra en octobre 2023</p>
-
-            <br>
-
-            <p>Membre de la Société des Gens de Lettres.</p>
         </article>
     </main>
     <?php include '../composants/footer.php' ?>

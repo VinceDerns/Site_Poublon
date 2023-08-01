@@ -11,9 +11,12 @@
    </head>
 
    <body>
-       <section class="container-form">
-
+       <header>
            <h2>Contact</h2>
+       </header>
+
+
+       <section class="container-form">
            <form action="" method="post">
 
                <div>
